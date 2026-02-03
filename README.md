@@ -8,10 +8,10 @@ Install skills using the skills CLI:
 
 ```bash
 # Install a specific skill
-npx skills add sandgarden-skills/skills/code-reviewer
+npx skills add technophile-04/sandgarden-skills/code-reviewer
 
 # Install from this repository
-npx skills add github:sandgarden/sandgarden-skills
+npx skills add technophile-04/sandgarden-skills
 ```
 
 ## Available Skills
