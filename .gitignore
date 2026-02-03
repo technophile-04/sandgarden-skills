@@ -1,0 +1,44 @@
+# Installed skills (users install from skills/ to these directories)
+.claude/skills/*
+.cursor/skills/*
+.cline/skills/*
+.opencode/skills/*
+.agent/skills/*
+.agents/skills/*
+.codex/skills/*
+.gemini/skills/*
+
+# Keep the directories themselves but not their contents
+!.claude/skills/.gitkeep
+!.cursor/skills/.gitkeep
+!.cline/skills/.gitkeep
+!.opencode/skills/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
