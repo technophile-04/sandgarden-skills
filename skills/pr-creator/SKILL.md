@@ -18,7 +18,7 @@ If no other instructions are provided, create a PR from the current branch to th
 
 - title: concise description of the main change
 - body:
-  1. Summary:A really concise description of the changes
+  1. Summary: A really concise description of the changes
   2. How to test: Instructions on how reviewers can test the changes
   3. (optional) Tricky things to look out for when reviewing (database changes, auth, security, important copy, etc)
   4. (optional) A collapsible section with a detailed description about the changes
