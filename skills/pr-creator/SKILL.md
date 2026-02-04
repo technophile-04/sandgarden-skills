@@ -12,7 +12,7 @@ If no other instructions are provided, create a PR from the current branch to th
 - Verify the current branch is NOT the default branch
 - Verify there are commits ahead of the default branch. If there are uncommitted changes, suggest to commit them first
 - Inspect the git diff (against the default branch) and commit history to understand the changes
-- If no PR is needed, explain why and stop
+- If the PR is already created, just push the changes to the branch
 
 ## Format of the PR
 
