@@ -36,3 +36,13 @@ Create a GitHub PR with your changes. Analyzes commits, generates a descriptive 
 - You've completed changes and want to create a PR
 - You want to submit your work for review
 - You want to ship your changes
+
+### se-2-challenges-branch-cleanup
+
+Audit and prune stale branches in `scaffold-eth/se-2-challenges` (a branch-per-challenge repo with no shared main). Classifies every branch by PR state and last activity, proposes a delete list for human approval, and deletes safely with an SHA recovery file. Explains why git ancestry can't detect merged branches here.
+
+**Use when:**
+
+- The branch list has gotten cluttered with merged or abandoned branches
+- You want to clean up / prune / delete old branches in `se-2-challenges`
+- Periodic repo housekeeping
