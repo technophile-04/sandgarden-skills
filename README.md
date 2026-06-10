@@ -36,3 +36,13 @@ Create a GitHub PR with your changes. Analyzes commits, generates a descriptive 
 - You've completed changes and want to create a PR
 - You want to submit your work for review
 - You want to ship your changes
+
+### pin-scaffold-ui-versions
+
+Pin scaffold-ui (or any create-eth base-template dependency) to known-good versions across every SpeedRunEthereum challenge branch, opening one PR per challenge. Explains the create-eth `package.json` merge that makes the pin win, and bundles a script that sweeps all challenges.
+
+**Use when:**
+
+- A new scaffold-ui release breaks the challenge UIs
+- Challenges look different after `npx create-eth`
+- An upstream dependency bump needs to be held back across the `se-2-challenges` branches
